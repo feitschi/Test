@@ -14,6 +14,7 @@ public class Controller {
     @GetMapping("/api/time")
     public LocalTime localTime(){
         return service.getTime();
+
     }
 
     @GetMapping("/api/date")
